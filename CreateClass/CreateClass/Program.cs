@@ -16,6 +16,16 @@ namespace CreateClass
             Console.WriteLine(myPerson.GetBirthDate);
             Console.WriteLine(myPerson.ToString);
             Console.ReadLine();
+            Employee myEmployee = new Employee();
+            myEmployee.Name = "Candles";
+            myEmployee.SetBirthDate(88, 1, 1);
+            myEmployee.gender = Person.Gender.MALE;
+            myEmployee.Salary = 100000;
+            myEmployee.Profession = "Junior software developer";
+            Console.WriteLine(myEmployee.ToString);
+            Console.ReadLine();
+            Employee myOldEmployee = myPerson;
+
         }
     }
     public class Person
@@ -41,6 +51,13 @@ namespace CreateClass
         }
         public string Name { get; set; }
 
-        public string ToString => $"Name: {Name}, DOB: {birthDate}, Genre: {gender}";
+        public string ToString => $"Name: {Name}, DOB: {birthDate}, Gender: {gender}";
+    }
+    class Employee : Person
+    {
+        public int Salary;
+        public string Profession;
+
+        public string ToString => $"Name: {Name}, DOB: {birthDate}, Gender: {gender}, Salary: {Salary}, Prof: {Profession}";
     }
 }
