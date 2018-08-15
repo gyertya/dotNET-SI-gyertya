@@ -11,5 +11,3 @@ Cheers!
 <a href="https://www.linkedin.com/in/gyertya/" target="_blank">LinkedIn</a>
 
 <a href="mailto:gyertya@gmail.com">E-mail</a>
-
-<a href="http://example.com/" target="_blank">Hello, world!</a>
