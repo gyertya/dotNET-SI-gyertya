@@ -12,3 +12,4 @@ Cheers!
 
 <a href="mailto:gyertya@gmail.com">E-mail</a>
 
+<a href="http://example.com/" target="_blank">Hello, world!</a>
