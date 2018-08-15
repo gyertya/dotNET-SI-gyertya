@@ -1,4 +1,4 @@
-# Hello Wolrd!
+# Hello World!
 
 My name is **Zoltán Gyertyánffy**, I'm a student ([Codecool](http://codecool.com)).
 
