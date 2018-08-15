@@ -1,11 +1,12 @@
 # Hello Wolrd!
 
-My name is Zoltán Gyertyánffy, I'm a student ([Codecool] (http://codecool.com)).
+My name is Zoltán Gyertyánffy, I'm a student ([Codecool](http://codecool.com)).
 
 This is my 3rd modul (from 4) in the school. I believ, I'll learn a lot :). 
 
 Cheers!
 
 Contact: 
-[LinkedIn] (https://www.linkedin.com/in/gyertya/)
-[Email] (mailto:gyertya@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/gyertya/)
+
+[Email](mailto:gyertya@gmail.com)
