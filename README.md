@@ -8,9 +8,7 @@ Cheers!
 
 ## Contacts 
 
-[LinkedIn](https://www.linkedin.com/in/gyertya/)
+<a href="https://www.linkedin.com/in/gyertya/" target=_blank>LinkedIn</a>
 
-[Email](mailto:gyertya@gmail.com)
+<a href="mailto:gyertya@gmail.com">E-mail</a>
 
-
-<a href="http://example.com/" target="_blank">Hello, world!</a>
