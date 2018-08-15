@@ -1,8 +1,8 @@
 # Hello Wolrd!
 
-My name is Zoltán Gyertyánffy, I'm a student ([Codecool](http://codecool.com)).
+My name is **Zoltán Gyertyánffy**, I'm a student ([Codecool](http://codecool.com)).
 
-This is my 3rd modul (from 4) in the school. I believ, I'll learn a lot :). 
+This is my 3rd modul (from 4) in the school. I believe, I'll learn a lot :). 
 
 Cheers!
 
