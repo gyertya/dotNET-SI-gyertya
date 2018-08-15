@@ -7,6 +7,7 @@ This is my 3rd modul (from 4) in the school. I believ, I'll learn a lot :).
 Cheers!
 
 Contact: 
+
 [LinkedIn](https://www.linkedin.com/in/gyertya/)
 
 [Email](mailto:gyertya@gmail.com)
