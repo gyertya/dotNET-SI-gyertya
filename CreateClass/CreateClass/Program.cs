@@ -69,7 +69,7 @@ namespace CreateClass
 
         public string ToString()
         {
-            return $"Name: {Name}, DOB: {birthDate}, Gender: {gender}, Salary: {Salary}, Prof: {Profession}, Room: {Room.Number}";
+            return $"Name: {Name}, DOB: {birthDate}, Gender: {gender}, Salary: {Salary:c}, Prof: {Profession}, Room: {Room.Number}";
         }
 
         public Employee(string name, DateTime time, int salary, string prof)
