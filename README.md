@@ -8,7 +8,7 @@ Cheers!
 
 ## Contacts 
 
-<a href="https://www.linkedin.com/in/gyertya/" target=_blank>LinkedIn</a>
+<a href="https://www.linkedin.com/in/gyertya/" target="_blank">LinkedIn</a>
 
 <a href="mailto:gyertya@gmail.com">E-mail</a>
 
