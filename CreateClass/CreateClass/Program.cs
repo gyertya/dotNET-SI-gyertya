@@ -22,9 +22,10 @@ namespace CreateClass
             myEmployee.gender = Person.Gender.MALE;
             myEmployee.Salary = 100000;
             myEmployee.Profession = "Junior software developer";
+            myEmployee.roomNumber = 1;
             Console.WriteLine(myEmployee.ToString);
             Console.ReadLine();
-            Employee myOldEmployee = myPerson;
+
 
         }
     }
@@ -51,13 +52,18 @@ namespace CreateClass
         }
         public string Name { get; set; }
 
-        public string ToString => $"Name: {Name}, DOB: {birthDate}, Gender: {gender}";
+        public new string ToString => $"Name: {Name}, DOB: {birthDate}, Gender: {gender}";
     }
-    class Employee : Person
+    class Employee : Room
     {
         public int Salary;
         public string Profession;
 
-        public string ToString => $"Name: {Name}, DOB: {birthDate}, Gender: {gender}, Salary: {Salary}, Prof: {Profession}";
+        public new string ToString => $"Name: {Name}, DOB: {birthDate}, Gender: {gender}, Salary: {Salary}, Prof: {Profession}, Room: {roomNumber}";
+    }
+
+    class Room : Person
+    {
+        public int roomNumber { get; set; }
     }
 }
