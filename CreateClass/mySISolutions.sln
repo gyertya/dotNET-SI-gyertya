@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AteszOkoskodik", "AteszOkos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCollection", "SimpleCollection\SimpleCollection.csproj", "{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithDictionary", "FunWithDictionary\FunWithDictionary.csproj", "{A3BF427F-C06B-4CB3-9EBE-DA91C5262F38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BF427F-C06B-4CB3-9EBE-DA91C5262F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BF427F-C06B-4CB3-9EBE-DA91C5262F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BF427F-C06B-4CB3-9EBE-DA91C5262F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BF427F-C06B-4CB3-9EBE-DA91C5262F38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
