@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerEvents", "TimerEvents\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortString", "SortString\SortString.csproj", "{1AC0AA07-D067-4004-AD1F-5B3A56542348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AteszOkoskodik", "AteszOkoskodik\AteszOkoskodik.csproj", "{2F43FDB3-99F8-4F2A-8746-ED2002AF8F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCollection", "SimpleCollection\SimpleCollection.csproj", "{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{1AC0AA07-D067-4004-AD1F-5B3A56542348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AC0AA07-D067-4004-AD1F-5B3A56542348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AC0AA07-D067-4004-AD1F-5B3A56542348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F43FDB3-99F8-4F2A-8746-ED2002AF8F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F43FDB3-99F8-4F2A-8746-ED2002AF8F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F43FDB3-99F8-4F2A-8746-ED2002AF8F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F43FDB3-99F8-4F2A-8746-ED2002AF8F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C57153-01ED-4FE1-9C2E-541595F3EAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
