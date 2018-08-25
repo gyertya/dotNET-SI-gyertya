@@ -8,7 +8,7 @@ namespace SimpleCollection
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var salmons = new List<string>()
                 { "chinooks", "coho", "pink", "sockeye"  };
@@ -24,6 +24,9 @@ namespace SimpleCollection
             salmons.Remove("pink");
             Console.WriteLine("--\"pink\" removed:");
             WriteSalmonsByFor(salmons);
+            Console.WriteLine("--Numbers manipulation:");
+            RemoveItems.NumbersManipulation();
+            ListOfMyObjects.IterateThroughList();
         }
 
         private static void WriteSalmonsByFor(List<string> salmons)
