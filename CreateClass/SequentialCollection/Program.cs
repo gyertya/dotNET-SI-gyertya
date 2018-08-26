@@ -26,6 +26,18 @@ namespace SequentialCollection
             {
                 MyQueue.Dequeue();
             }
-        }
+
+            var MyStack = new Stack<string>(new[] { "First", "Second", "Third", "Fourth" });
+
+            foreach (var item in MyStack)
+            {
+                Console.WriteLine(item);
+            }
+
+            while (MyStack.Count > 0) {
+                MyStack.Pop();
+            }
+
+        }   
     }
 }
