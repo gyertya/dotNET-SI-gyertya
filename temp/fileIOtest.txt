@@ -1,0 +1,4 @@
+Hello World!
+d:\codecool\dotnet\dotNET-SI-gyertya\temp\fileIOtest.txt
+D:\codecool\dotnet\dotNET-SI-gyertya\CreateClass\FunWithFileIO\bin\Debug
+D:\codecool\dotnet\dotNET-SI-gyertya\CreateClass\FunWithFileIO\bin\Debug
