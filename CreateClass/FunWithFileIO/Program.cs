@@ -15,8 +15,21 @@ namespace FunWithFileIO
 
         static void Main(string[] args)
         {
-            MyFileCreateTextMethod();
+            System.IO.DriveInfo di = new System.IO.DriveInfo(Environment.GetLogicalDrives()[0]);
+            System.IO.DirectoryInfo rootDir = di.RootDirectory;
+            Console.WriteLine(di);
+            WalkDirecoryTree(di.RootDirectory);
+
+            //MyFileCreateTextMethod();
             //ListAllFilesFromComputer(); // It takes too long time :)
+        }
+
+        private static void ListOfAllDirs()
+        {
+            System.IO.DriveInfo di = new System.IO.DriveInfo(Environment.GetLogicalDrives()[0]);
+            System.IO.DirectoryInfo rootDir = di.RootDirectory;
+            Console.WriteLine(di);
+            Console.WriteLine(rootDir.GetDirectories());
         }
 
         private static void ListAllFilesFromComputer()
@@ -43,33 +56,34 @@ namespace FunWithFileIO
             System.IO.FileInfo[] files = null;
             System.IO.DirectoryInfo[] subDirs = null;
 
-            try
-            {
-                files = root.GetFiles("*.*");
-            }
-            catch (UnauthorizedAccessException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (System.IO.DirectoryNotFoundException e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            //try
+            //{
+            //    files = root.GetFiles("*.*");
+            //}
+            //catch (UnauthorizedAccessException e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
+            //catch (System.IO.DirectoryNotFoundException e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
 
-            if (files != null)
+            //if (files != null)
+            //{
+            //    foreach (System.IO.FileInfo file in files)
+            //    {
+            //        Console.WriteLine(file.FullName);
+            //    }
+
+            subDirs = root.GetDirectories();
+
+            foreach (System.IO.DirectoryInfo dir in subDirs)
             {
-                foreach (System.IO.FileInfo file in files)
-                {
-                    Console.WriteLine(file.FullName);
-                }
-
-                subDirs = root.GetDirectories();
-
-                foreach (System.IO.DirectoryInfo dir in subDirs)
-                {
-                    WalkDirecoryTree(dir);
-                }
+                WalkDirecoryTree(dir);
+                Console.WriteLine(dir);
             }
+            //}
         }
 
         private static void MyFileCreateTextMethod()

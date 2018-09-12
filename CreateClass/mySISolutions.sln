@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithFileIO", "FunWithFil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeekAndArchive", "SeekAndArchive\SeekAndArchive.csproj", "{D50D0D8D-91A9-44D9-A55D-BE035CF58A2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewPractice", "TreeViewPractice\TreeViewPractice.csproj", "{D7E43E41-AC75-4B71-B6FA-85718B432609}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D50D0D8D-91A9-44D9-A55D-BE035CF58A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D50D0D8D-91A9-44D9-A55D-BE035CF58A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D50D0D8D-91A9-44D9-A55D-BE035CF58A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E43E41-AC75-4B71-B6FA-85718B432609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E43E41-AC75-4B71-B6FA-85718B432609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E43E41-AC75-4B71-B6FA-85718B432609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E43E41-AC75-4B71-B6FA-85718B432609}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
