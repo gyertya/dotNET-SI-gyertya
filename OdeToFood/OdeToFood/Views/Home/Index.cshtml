@@ -1,0 +1,24 @@
+﻿@model OdeToFood.ViewModels.HomeIndexViewModel
+@{
+    ViewBag.Title = "Main";
+}
+@* NOT RAZOR HTML *@
+<h1>All restaurant</h1>
+<table>
+    @foreach (var restaurant in Model.Restaurants)
+    {
+        <tr>
+            <td>@restaurant.Id</td>
+            <td>@restaurant.Name</td>
+            <td>
+                @*<a href="/home/details/@restaurant.Id">Details</a>
+                    @Html.ActionLink("Go", "Details", new { id = restaurant.Id });*@
+                <a asp-action="Details" asp-route-id="@restaurant.Id">More</a>
+
+            </td>
+        </tr>
+    }
+</table>
+<a asp-action="Create">Add restaurant</a>
+
+@section footer {@Model.CurrentMessage}

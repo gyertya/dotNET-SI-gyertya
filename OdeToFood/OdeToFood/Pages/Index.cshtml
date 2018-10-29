@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewBag.Title = "Main";
+}
+@* This is the RAZOR page *@
+
+<h1>All restaurant!</h1>
+
+@foreach (var restaurant in Model.Restaurants)
+{
+    @Html.Partial("_Summary", restaurant);
+}
+@*<table>
+        @foreach (var restaurant in Model.Restaurants)
+        {
+            <tr>
+                <td>@restaurant.Id</td>
+                <td>@restaurant.Name</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@restaurant.Id">More</a>
+                    <a asp-page="/Restaurants/Edit" asp-route-id="@restaurant.Id">Edit</a>
+                </td>
+            </tr>
+        }
+    </table>*@
+<div>
+    <a asp-action="Create">Add restaurant</a>
+</div>
