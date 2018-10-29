@@ -1,0 +1,8 @@
+﻿@page
+@using Microsoft.Extensions.Configuration;;
+@inject IConfiguration Configuration
+
+<h1>Hello Beyonce from HEADER OF A RAZOR PAGE</h1>
+<h2>
+    @Configuration["Message"]
+</h2>

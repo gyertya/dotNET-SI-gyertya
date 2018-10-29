@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongRunOperationPractice", "LongRunOperationPractice\LongRunOperationPractice.csproj", "{C005D680-3007-4A17-A7E9-6428735A2AFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C005D680-3007-4A17-A7E9-6428735A2AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C005D680-3007-4A17-A7E9-6428735A2AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C005D680-3007-4A17-A7E9-6428735A2AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C005D680-3007-4A17-A7E9-6428735A2AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD908F4A-6B50-49B7-A087-06A981A344EA}
+	EndGlobalSection
+EndGlobal
